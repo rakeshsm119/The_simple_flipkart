@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Lato:ital,wght@1,300&family=Ubuntu:ital,wght@1,500&display=swap');
+:root {
+    --main-bg-color: rgb(24, 142, 246);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color: #c4a2b28c;
+
+}
+.header{
+  
+    background: var(--main-bg-color);
+    border: 2px solid black;
+    font-family: 'Lato', sans-serif;
+    position: sticky;
+    top: 0;
+}
+.header nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+  
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(11, 94, 211);
+   font-style: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 23px;
+    border-radius: 5px;
+    margin:0 16px 0 56px;
+    padding: 0 12px;
+}
+.slider{
+    width: 88vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+     font-weight: 500;
+}
+.card{
+    width: 91vw;
+    margin:3px auto;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-color: #f1efef4b;
+
+
+}
+.cards{
+    /* display: flex; */
+     justify-content: center;
+    /* overflow: hidden; */
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.card-item img{
+    height: 115px;
+    width: 160px;
+}
+.card-item:hover{
+    transform: scale(1.2);
+    transition-duration: 1000ms;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+
+}
+.container{
+    align-items:calc( 100vh- 58px-12vh) ;
+    
+}
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Ubuntu', sans-serif
+}
+.icon{
+    font-size: 25px;
+    display: flex;
+}
+.icon div{
+    padding: 10px;
+}
+.icon div:hover{
+    transform: scale(1.5);
+    color: #989fa5;
+}
+
+
+.contact{
+    background: url(/assaiment/ima.jpg)no-repeat;
+    margin: 3px auto;
+    text-align: center;
+
+}
+.col input, textarea{
+    margin: 4px;
+    padding: 8px;
+    width: 50%;
+    box-shadow: -2px 3px 3px ;
+    border-radius: 9px;
+    background-color: #e3bac16b;
+}
+.col label{
+    font-weight: bold;
+}
